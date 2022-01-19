@@ -1,0 +1,37 @@
+@import url("./animation.css");
+
+body {
+    text-align: center;
+    background-color: #f3f3f3;
+    color:#000000;
+}
+
+.box {
+    position: relative;
+}
+.box .box_imageLeft {
+    width: 20%;
+    position: absolute;
+    left: 0;
+}
+.box .box_imageRight {
+    width: 20%;
+    position: absolute;
+    right: 0;
+}
+
+.trigger {
+    width: 20%;
+    height: 20%;
+    animation: korokoro 2.5s linear 0s infinite;
+}
+
+.ssrEffect {
+    width: 20%;
+    height: 20%;
+    animation: purun 0.8s linear 0s 4;
+}
+
+.hidden{
+    display: none;
+}
